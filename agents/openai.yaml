@@ -1,0 +1,6 @@
+interface:
+  display_name: "VibeSkill 概念神"
+  short_description: "先查概念再理解与行动，区分提问和实施，保留用户自定义概念、原意与约束"
+  default_prompt: "使用 $vibe-skill 先检索并澄清我的消息，再按我的意图回答、实施或改写提示词；保留自定义术语及无匹配内容，不强行概念替换或增加需求。"
+policy:
+  allow_implicit_invocation: true
